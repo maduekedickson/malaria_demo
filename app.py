@@ -8,7 +8,7 @@ import os
 image = Image.open('./image.jpg')  # Replace with your image path
 
 # Display the image
-st.image(image, use_column_width=True)
+st.image(image)
 
 # Load the saved model with error handling
 model_path = os.path.join(os.path.dirname(__file__), 'random_forest_model_1.pkl')
